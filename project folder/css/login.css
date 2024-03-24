@@ -1,0 +1,101 @@
+body{
+    background: url('../images/bakery-hero.png') no-repeat center center fixed;
+    background-size: cover;
+	font-family: arial;
+}
+
+
+div.LoginHeader{
+	text-align: center;
+	margin: 60px;
+}
+
+div.LoginHeader h1{
+	font-size: 100px;
+	color:#ff6347;
+	padding: 0px;
+	margin: 0px;
+	
+	
+
+}
+
+div.LoginHeader p{
+	color:#ff6347;
+	font-size:50px;
+	margin: 0px;
+    text-transform: uppercase;
+}
+
+div.LoginHeader p:after{
+    content: '';
+    display:block;
+    height:5px;
+    background:#ff6347;
+    width:780px;
+    margin:0 auto;
+
+}
+
+div.LoginBody form{
+	margin:0 auto;
+	width: 450px;
+    background: rgba(0,0,0,0.5);
+	padding: 50px;
+    border:2px solid #fff;
+	border-radius: 8px;
+
+}
+
+div.LoginInputsContainer{
+	margin-top:30px;
+}
+
+div.LoginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.LoginInputsContainer input{
+	height: 25px;
+	width: 400px;
+	border: 2px solid #ff6347;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+}
+
+div.loginButtonContainer{
+	margin-top: 40px;
+	text-align: center;
+
+}
+
+div.loginButtonContainer button{
+	font-size: 20px;
+	padding: 10px 30px;
+	background: #ff6347;
+	border: none;
+	color: #fff;
+
+}
+
+div#errorMessage{
+	background: #fff;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	padding: 11px;
+}
+
+ 
+
+
+
+
+
+

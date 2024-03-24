@@ -1,0 +1,228 @@
+div.header {
+    width: 100%;
+    background: #ff6637;
+    padding: 10px 0px;
+    text-align: right; /* Align text to the right */
+}
+
+div.header a {
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div.banner {
+    background: url('bakery-hero.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+div.homepageContainer {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
+}
+
+div.bannerheader h1 {
+    font-size: 100px;
+    color: #ff6347;
+    line-height: 100px;
+}
+
+div.bannerheader p {
+    font-size: 40px;
+    color: #ff6347;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+p.bannerTagline {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+div.bannerIcons {
+    margin-top: 50px;
+}
+
+div.bannerIcons i {
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 7px 18px;
+    background: orange;
+    color: #fff;
+    border-radius: 20%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.bannerIcons i:first-child {
+    margin-left: 0px;
+}
+
+div.bannerIcons i:hover {
+    color: #fff;
+    font-size: 25px;
+    background: #ff6347;
+    transition: .5s all;
+}
+
+div.homepagefeatures {
+    display: flex;
+    flex-direction: row;
+}
+
+div.homepagefeature {
+    padding: 10px 20px;
+}
+
+div.homepagefeature:hover {
+    border-top: 2px solid #ff6347;
+    transition: 0.5s all;
+    border-bottom: 2px solid #ff6347;
+}
+
+div.homepagefeature span.featureIcon {
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    background: #ff6347;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+div.emailform h3 {
+    font-size: 25px;
+}
+
+div.emailform {
+    width: 40%;
+}
+
+div.homepagefeature h3.featureTitle {
+    margin-bottom: 20px;
+}
+
+div.homepagefeature p.featureDescription {
+    color: #848484;
+}
+
+div.homepageNotified {
+    background: #e3e3e3;
+    padding: 50px 0px;
+    text-align: center; /* Center the text */
+    
+}
+
+div.homepageNotifiedContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  /* Center the content horizontally */
+    background: #e3e3e3;
+    padding: 50px 0px;
+}
+
+div.homepageNotified h3 {
+    margin-bottom: 20px;
+    
+}
+
+div.homepageNotified p {
+    color: #848484;
+}
+
+div.formContainer {
+    width: 80%;
+    position: relative;
+    border-radius: 5px;
+}
+
+div.formContainer input {
+    width: 61%;
+    padding: 15px 10px;
+}
+
+div.formContainer input:focus {
+    outline: none;
+}
+
+div.formContainer button {
+    position: absolute;
+    right: -0.20em;
+    top: 0;
+    height: 100%;
+    font-size: 22px;
+    padding: 0px 10px;
+    background: #ff6347;
+    border: none;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+div.socials {
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+h1.socialHeader {
+    font-size: 40px;
+}
+
+p.socialText {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #848484;
+    font-size: 20px;
+}
+
+div.socialIconsContainer i {
+    font-size: 23px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 15px;
+    background: #848484;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+div.socialIconsContainer i:hover {
+    background: #ff6347;
+    transition: 0.3s all;
+}
+
+div.footer {
+    background: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    word-spacing: 25px; /* Adjust the value as needed */
+}
+
+div.footer a {
+    color: #848484;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+div.footer a:hover {
+    font-weight: bold;
+    color: #ff6347;
+    transition: 0.5s all;
+}
